@@ -1,0 +1,22 @@
+.display {
+    height: 50px; 
+    flex: 1 0 auto;  
+}
+.buttons {
+    flex: 0 0 auto;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+}
+
+.row{
+    display: flex;
+}
+
+button {
+    flex: 1;
+}
+
