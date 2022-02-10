@@ -72,7 +72,6 @@ function deleteNum(){
 }
 
 function handleKeydown(e){
-    console.log(e, e.keyCode)
     if(e.keyCode >= ZERO_KEYCODE && e.keyCode <= NINE_KEYCODE){
         buildNum(e.keyCode-ZERO_KEYCODE);
     }else if(e.keyCode === BACKSPACE_KEYCODE){
